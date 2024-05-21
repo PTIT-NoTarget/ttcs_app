@@ -1,4 +1,5 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
+import os
 
 import pandas as pd
 import numpy as np
@@ -31,6 +32,11 @@ score = clf.score(X_test, y_test)
 app = Flask(__name__)
 
 start_at = 100
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 
 @app.route('/train_batch', methods=['GET', 'POST'])
 def train_batch():
@@ -73,6 +79,7 @@ def index():
     rem = (len(X_train) - start_at) > 0
 
     return render_template("index.html", score=round(score, 5), remain = rem)
+
 
 if __name__ == '__main__':
     app.run()
