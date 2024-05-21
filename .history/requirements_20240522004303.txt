@@ -70,7 +70,7 @@ requests-toolbelt==0.9.1
 resampy==0.2.2
 rope==0.18.0
 rsa==4.0
-ruamel-yaml==0.17.16
+ruamel-yaml==0.15.46
 s3transfer==0.2.0
 scikit-image==0.14.1
 scikit-learn==0.21.3
