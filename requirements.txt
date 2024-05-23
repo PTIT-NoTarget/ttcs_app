@@ -22,7 +22,6 @@ Deprecated==1.2.13
 distro==1.7.0
 Django==5.0.4
 dnspython==2.1.0
-duplicity==0.8.21
 exceptiongroup==1.2.1
 executing==2.0.1
 fasteners==0.14.1
