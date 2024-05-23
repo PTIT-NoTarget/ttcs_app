@@ -80,7 +80,6 @@ olefile==0.46
 opt-einsum==3.3.0
 optree==0.11.0
 ospd==21.4.4
-ospd-openvas==21.4.3
 packaging==21.3
 pandas==1.4.1
 paramiko==2.9.3
