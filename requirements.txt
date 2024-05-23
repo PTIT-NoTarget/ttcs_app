@@ -36,7 +36,6 @@ gvm-tools==21.1.0
 h5py==3.11.0
 html5lib==1.1
 httplib2==0.20.2
-idna==3.3
 impacket==0.9.24
 importlib-metadata==4.6.4
 ipykernel==6.29.4
@@ -114,7 +113,6 @@ pyxhook==1.0.0
 pyzmq==26.0.2
 redis==3.5.3
 reportlab==3.6.8
-requests==2.25.1
 requests-toolbelt==0.9.1
 rich==13.7.1
 scikit-learn==1.0.2
